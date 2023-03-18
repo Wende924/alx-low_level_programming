@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
-* main - Assigns a random number to variable n
+* main: - Assigns a random number to variable n
 *
 * Return: Always 0 (Success)
 */
@@ -25,5 +25,6 @@ else if ((n % 10) < 6 && (n % 10) != 0)
 else
 {
 	printf("Last digit of %d is %d and is 0\n",
+			n, n % 10);
 }
 return (0);
