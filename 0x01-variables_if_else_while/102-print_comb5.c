@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.>
 #include <stdio.h>
 #include <time.h>
 /**
@@ -15,6 +15,7 @@ int main(void)
 		for (num2 = 0; num2 <= 9; num2++)
 		{
 			for (num3 = num1; num3 <= 9; num3++)
+
 				for (num4 = num2 + 1; num4 <= 9; num4++)
 				{
 					putchar(num1 + '0');
@@ -32,5 +33,6 @@ int main(void)
 	}
 }
 putchar('\n');
+
 return (0);
 }
