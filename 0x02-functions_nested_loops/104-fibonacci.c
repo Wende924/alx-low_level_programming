@@ -1,9 +1,12 @@
-#include <stdio.h>
-/**
-* main - prints the first 98 fibonacci numbers, starting with
-* 1 and 2, separated by a comma and space.
-* Return: always 0.
-*/
+ #include <stdio.h>
+
+ /**
+ * main - the function prints the first 98 fibonacci numbers, starting with
+ * 1 and 2, separated by a comma and space.
+ *
+ * Return: always 0.
+ */
+
 int main(void)
 {
 	int count;
@@ -14,7 +17,7 @@ int main(void)
 	for (count = 0; count < 92; count++)
 	{
 		sum = fib1 + fib2;
-			printf("%lu", sum);
+		printf("%lu, ", sum);
 		fib1 = fib2;
 		fib2 = sum;
 	}
